@@ -1,11 +1,11 @@
 # ラベル付け手順
 
 
-## 1.データセットダンロード
+## 1.データセットダウンロード
 ```
 https://drive.google.com/drive/folders/1BZRCjUsVSh9ZqLM8xJWTYr532IIlmi9u?usp=sharing
 ```
-'dataset'フォルダをまともにダンロード
+'dataset'フォルダをまともにダウンロード
 
 ## 2.gitclone
 ```
@@ -26,7 +26,7 @@ python -m pip install cityscapesscripts[gui]
 echo "export CITYSCAPES_DATASET=/データセットのpath " >> ~/.bashrc
 source ~/.bashrc
 ```
-例えば：ダンロードしたデータセットのpathは：/home/dataset　の場合
+例えば：ダウンロードしたデータセットのpathは：/home/dataset　の場合
 ```
 echo "export CITYSCAPES_DATASET=/home/dataset " >> ~/.bashrc
 ```
@@ -44,16 +44,16 @@ python3 cityscapesLabelTool.py
 
 どんなラベルを選択すればいいのがわからない場合は、”Opencity”をクリックして、"train,gtFine,ulm"を選択して、参照してラベルを付ける。
 
-重要のは：
+重要なのは：
 
 道路（走行可能領域）は”road”に、芝は”terrain”に、建物は”building”に、空は”sky”に、植物は”vegetation”に、カラーコーンは
 ”traffic sign”にする。
 
-一枚の画像のラベル付け終わったら、”Save”を押して、最後は/dataset/train/gtFine/train/tsukubaの中の内容が
+一枚の画像のラベル付けが終わったら、”Save”を押して、最後は/dataset/train/gtFine/train/tsukubaの中の内容が
 
 https://drive.google.com/drive/folders/1BZRCjUsVSh9ZqLM8xJWTYr532IIlmi9u?usp=sharing
 
-の同じどころにアップロードすればいい。
+の同じところにアップロードすればいい。
 
 
 ## Contact
