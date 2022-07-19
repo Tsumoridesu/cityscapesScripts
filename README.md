@@ -5,7 +5,7 @@
 ```
 https://drive.google.com/drive/folders/1BZRCjUsVSh9ZqLM8xJWTYr532IIlmi9u?usp=sharing
 ```
-'dataset'フォルダをまともにダウンロード
+'dataset'フォルダをそのままダウンロード
 
 ## 2.gitclone
 ```
