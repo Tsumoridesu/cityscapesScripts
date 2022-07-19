@@ -33,7 +33,7 @@ echo "export CITYSCAPES_DATASET=/home/dataset " >> ~/.bashrc
 
 ## 5.ラベル付け
 ```
-cd cityscapesscripts/anntation
+cd cityscapesscripts/annotation
 python3 cityscapesLabelTool.py
 ```
 左上の”Opencity”をクリックして、"train,gtFine,tsukuba"を選択して、ラベル付けを開始
