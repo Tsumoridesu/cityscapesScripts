@@ -3,7 +3,7 @@
 
 ## 1.データセットダウンロード
 ```
-https://drive.google.com/drive/folders/1BZRCjUsVSh9ZqLM8xJWTYr532IIlmi9u?usp=sharing
+https://drive.google.com/file/d/1Fh4eKy8u4DYOcbi66BivhQ5t-MbwuYuP/view?usp=sharing
 ```
 'dataset'フォルダをそのままダウンロード
 
