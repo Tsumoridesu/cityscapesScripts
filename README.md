@@ -47,7 +47,7 @@ python3 cityscapesLabelTool.py
 重要なのは：
 
 道路（走行可能領域）は”road”に、芝は”terrain”に、建物は”building”に、空は”sky”に、植物は”vegetation”に、カラーコーンは
-”traffic sign”にする。
+”traffic sign”にする、走行不可能領域（縁石など）は”sidewalk”にする。
 
 一枚の画像のラベル付けが終わったら、”Save”を押して、最後は/dataset/gtFine/train/tsukubaの中の内容が
 
